@@ -46,19 +46,18 @@
     <div id="successMessage" class="alert alert-success mt-3" style="display:none;">
         提交成功！感谢您的留言。
     </div>
+    <iframe name="hidden_iframe" style="display:none;"></iframe>
 </div>
 
 <script>
-    $(document).ready(function() {
-        $('#bootstrapForm').submit(function(event) {
-            // 这里是正常提交表单
-            alert('表单已提交！感谢您的留言。');
-            // 提交后跳转到自定义页面
-            setTimeout(function() {
-                window.location.href = 'thankyou.html'; // 自定义感谢页面的 URL
-            }, 100); // 可以设置稍短的延时
-        });
-    });
+    function submitForm() {
+        // 提交表单后跳转到自定义页面
+        setTimeout(function() {
+            window.location.href = 'thankyou.html'; // 自定义感谢页面的 URL
+        }, 100); // 可以设置稍短的延时
+
+        return true; // 继续提交表单
+    }
 </script>
 
 </body>
