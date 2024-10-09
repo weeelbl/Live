@@ -12397,7 +12397,7 @@ header.hover-color-green .main-header-wraper .header-right .header-search .searc
 
 .banner-home {
   z-index: 1;
-  background-color: #04213F;
+  background-color: #0c022a;
 }
 .banner-home:before {
   left: -28px;
@@ -12438,7 +12438,7 @@ header.hover-color-green .main-header-wraper .header-right .header-search .searc
 .banner-home__content .sub-title {
   border-radius: 2px;
   padding: 10.5px 19px;
-  background-color: #052648;
+  background-color: #130342;
 }
 .banner-home__content .sub-title span {
   color: #EF0548;
